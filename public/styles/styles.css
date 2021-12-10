@@ -57,9 +57,11 @@ h2 {
 	align-items: center;
 	justify-content: center;
 }
+
 .telaInicial div {
 	margin-left: 10px;
 }
+
 .telaInicial button img {
 	height: 14px;
 	width: 8px;
@@ -105,14 +107,14 @@ h2 {
 	box-shadow: 0px 8px 24px 0px #0000001f;
 }
 
-.telaCard main h1 {
+.telaCard .card h1 {
 	font-weight: bold;
 	font-size: 28px;
 	line-height: 33px;
 	align-self: center;
 }
 
-.telaCard main ion-icon {
+.telaCard .card ion-icon {
 	width: 40px;
 	height: 35px;
 }

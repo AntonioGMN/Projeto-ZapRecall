@@ -7,8 +7,6 @@ function Main() {
 	return (
 		<>
 			<TelaInicial />
-			{/* {<TelaFlashCard />} */}
-			{/* <TelaFinal /> */}
 		</>
 	);
 }
