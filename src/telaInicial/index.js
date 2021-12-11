@@ -1,6 +1,7 @@
-import Logo from "./logo";
 import ReactDOM from "react-dom";
-import TelaFlashCard from "./telaFlashCard";
+import Logo from "../Logo";
+import TelaFlashCard from "../telaFlashCard";
+import "./styles.css";
 
 export default function TelaInicial() {
 	return (

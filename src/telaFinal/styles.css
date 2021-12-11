@@ -1,0 +1,40 @@
+.telaFinal {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.telaFinal h1 {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 42px;
+	letter-spacing: 0em;
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+.telaFinal h2 {
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: center;
+}
+
+.logo {
+	width: 120px;
+	height: 54px;
+
+	display: flex;
+	align-items: center;
+	align-self: start;
+	justify-content: space-between;
+	margin: 26px 0 0 32px;
+}
+
+.logo img {
+	width: 42px;
+	height: 53px;
+}

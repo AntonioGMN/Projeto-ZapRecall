@@ -1,0 +1,68 @@
+.telaInicial {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.telaInicial .logo {
+	width: 100vw;
+	height: 278px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 45px;
+}
+
+.telaInicial .logo img {
+	width: 171px;
+	height: 217px;
+}
+
+.telaInicial button {
+	border: yellow solid 2px;
+	border-radius: 5px;
+	background-color: white;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+
+	width: 350px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.telaInicial div {
+	margin-left: 10px;
+}
+
+.telaInicial button img {
+	height: 14px;
+	width: 8px;
+	border-radius: 0px;
+}
+
+.logo {
+	width: 120px;
+	height: 54px;
+
+	display: flex;
+	align-items: center;
+	align-self: start;
+	justify-content: space-between;
+	margin: 26px 0 0 32px;
+}

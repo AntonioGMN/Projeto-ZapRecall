@@ -1,7 +1,8 @@
 import ReactDOM from "react-dom";
-import TelaInicial from "./telas/telaInicial";
-import TelaFlashCard from "./telas/telaFlashCard";
-import TelaFinal from "./telas/telaFinal";
+import "./styles/reset.css";
+import TelaInicial from "./telaInicial";
+import TelaFinal from "./telaFinal";
+import TelaFlashCard from "./telaFlashCard";
 
 function Main() {
 	return (

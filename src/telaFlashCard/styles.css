@@ -1,0 +1,128 @@
+.telaCard {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.telaCard .card {
+	width: 392px;
+	height: 575.75px;
+	background-color: aqua;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	justify-self: center;
+	padding: 12px;
+	box-shadow: 0px 8px 24px 0px #0000001f;
+
+	transition: all 1s;
+	transform-style: preserve-3d;
+}
+
+.telaCard .card.back {
+	transform: rotateY(180deg);
+}
+
+.telaCard .card.back header,
+.telaCard .card.back h2,
+.telaCard .card.back .respostas,
+.telaCard .card.back ion-icon {
+	transform: rotateY(-180deg);
+}
+
+.telaCard .card header {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.telaCard .card header p {
+	margin: 0 auto;
+}
+
+.telaCard .card.front header p,
+.telaCard .card.front .resposta,
+.telaCard .card.front .respostas {
+	display: none;
+}
+
+.telaCard .card.back .pergunta,
+.telaCard .card.back ion-icon {
+	display: none;
+}
+
+.telaCard .card ion-icon {
+	width: 40px;
+	height: 35px;
+	align-self: flex-end;
+}
+
+.telaCard .card .respostas {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.telaCard .card .respostas button {
+	height: 48px;
+	width: 65px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.telaCard .card.respondido {
+	transition: none;
+}
+
+.telaCard .card.respondido .respostas {
+	display: none;
+}
+
+.telaCard .card.back.respondido ion-icon {
+	display: inline-block;
+	align-self: baseline;
+}
+
+.aprendi {
+	border: 3px solid #000000;
+	border-radius: 12px;
+}
+
+.nãoLembrei {
+	border: 3px solid #f64848;
+	border-radius: 12px;
+}
+
+.comEsforço {
+	border: 3px solid #62db38;
+	border-radius: 12px;
+}
+
+.zap {
+	border: 3px solid #ffef61;
+	border-radius: 12px;
+}
+
+.telaCard .card h1 {
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 33px;
+	align-self: center;
+}
+
+.telaCard .card h2 {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: center;
+}
