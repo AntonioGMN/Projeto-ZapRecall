@@ -10,7 +10,9 @@ export default function TelaInicial() {
 			<button
 				onClick={() =>
 					ReactDOM.render(
-						<TelaFlashCard />,
+						<TelaFlashCard
+							incide={1}
+						/>,
 						document.querySelector(
 							".root"
 						)
